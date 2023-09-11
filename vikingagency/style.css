@@ -157,6 +157,10 @@ header nav ul li a:hover{
 
 /*steps*/
 
+img{
+    width: 100px;
+    height: 100px;
+}
 
 
 #steps p
@@ -187,6 +191,8 @@ header nav ul li a:hover{
     
     padding: 20px;
 }
+
+
 
 
 
