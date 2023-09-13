@@ -15,11 +15,14 @@ body
     font-size: 15px;
 }
 
+h1,h2,h3,h4
+{color: #444;}
+
 h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
-    color: #444;
+    
 }
 
 h2
@@ -29,10 +32,16 @@ h2
     color: #fff
 }
 
+h3
+{
+    font-size: 30px;
+    
+}
+
 h4
 {
   font-size: 24px;
-  color: #777;
+  
 }
 
 p
@@ -264,9 +273,69 @@ article h4
 .button-2:hover
 {
     color: #fff;
-    background-color: #ff7a00;
+    background-color: #0085ff;
     
 }
+
+/*contact*/
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid #02b8dd;
+  padding-bottom: 20px;
+
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #ff7a00;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button-3:hover
+
+{
+ color: #fff;
+ background-color: #0085ff;
+}
+
+
+
 
 
 
