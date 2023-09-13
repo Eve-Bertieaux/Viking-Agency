@@ -220,6 +220,7 @@ img{
     padding: 60px 0;
 
 }
+
 #possibilities article
 {
     width: 500px;
@@ -259,7 +260,7 @@ article h4
 #possibilities p
 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 340px;
 }
 
 .button-2
@@ -333,15 +334,4 @@ input[type="text"]
  color: #fff;
  background-color: #0085ff;
 }
-
-
-
-
-
-
-
-
-
-
-
 
