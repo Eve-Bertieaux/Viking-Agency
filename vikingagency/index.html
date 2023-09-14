@@ -96,20 +96,59 @@
        <section id="contact">
         <div class="wrapper">
             <h3>Contactez-nous</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugiat at, doloribus recusandae cumque deleniti vitae possimus quaerat eum blanditiis, aut distinctio enim labore iusto maxime corporis necessitatibus consectetur facere molestias eius libero sapiente quis adipisci quae. Hic, ipsam nesciunt commodi animi est itaque architecto distinctio ipsa voluptate quo vitae.</p>
-            <form>
-                <label for="prenom">Prénom</label>
-                    <input type="text" id="prenom" placeholder="Votre prénom">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium reprehenderit dolor in assumenda amet architecto vitae dolores autem, optio, eveniet maiores soluta quis error recusandae itaque non fugit aspernatur, corrupti deserunt! Cumque porro magni, possimus eveniet labore officiis nobis ad aspernatur veritatis voluptate? Rerum laborum consequuntur obcaecati possimus expedita!</p>
+            
+            <main>
+            
+            <form action="traitement.php" method="post">
+                <div class="form-group">
                     <label for="nom">Nom</label>
-                    <input type="text" id="nom" placeholder="Votre nom de famille">
+                    <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre nom de famille" required>
+                    </div>
 
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Votre email">
+            <div class="form-group">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Votre prénom">
+                        </div>
 
-                    <input type="submit" value="ok" class="button-3">
+            <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Votre adresse Email" required>
+                            </div>
+
+            <div class="form-group">
+                                <label for="telephone">Téléphone</label>
+                                <input type="text" name="telephone" id="telephone" class="form-control" placeholder="Votre numéro de téléphone" required>
+                                </div>
+
+            <div class="form-group">
+            <label for="destination">Destination</label>
+            <select name="destination" id="destination" class="form-control" required>
+                                    <option value="">Choisissez une destination</option>
+                                    <option value="suede">Suède</option>
+                                    <option value="norvege">Norvège</option>
+                                    <option value="islande">Islande</option>
+                                </select>
+                                    </div>
+
+            <div class="form-group">
+                <label for="dates">Dates</label>
+                <input type="date" name="dates" id="dates" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre-personnes">Nombre de personnes</label>
+                <input type="number" name="nombre-personnes" id="nombre-personnes" class="form-control" placeholder="Combien de personnes partent avec vous pour cette expédition ?">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="form-control" placeholder="Votre message" rows="5"></textarea>
+            </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
                 
             </form>
+        </main>
         </div>
        </section>
        </section>
@@ -118,10 +157,10 @@
 
     <footer>
         <div class="wrapper">
-            <h1>Viking agency <span class="orange">.</span></h1>
-            <div class="copyright">Copyright 2023. Tous droit réservés</div>
+            <h1>Viking Agency <span class="orange">.</span></h1>
+            <div class="copyright">Copyright &copy; 2023. Tous droit réservés</div>
         </div>
     </footer>
-
+<script src="main.js"></script>
 </body>
 </html>
